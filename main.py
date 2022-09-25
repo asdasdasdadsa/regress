@@ -66,7 +66,7 @@ for i in ind:
     m = len(s)
     w = sSs.fddkd([bas_fun[j] for j in s], m)
     e = sSs.err(w, t_valid, [bas_fun[j] for j in s], m)
-    if len(top) <= 10:
+    if len(top) < 10:
         top.append([e, s, w])
     else:
         top.append([e, s, w])
